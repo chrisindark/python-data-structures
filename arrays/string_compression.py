@@ -41,6 +41,7 @@ def string_compression2(s):
     r = r + s[i - 1] + str(count)
     return r
 
+
 # print(string_compression('AAAABBBBCCCCCDDEEEE'))
 # print(string_compression('AAB'))
 # print(string_compression('AAAaaa'))

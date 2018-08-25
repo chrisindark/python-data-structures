@@ -7,6 +7,7 @@ def uni_char(s):
             hashmap[i] = i
     return True
 
+
 def uni_char2(s):
     return len(set(s)) == len(s)
 

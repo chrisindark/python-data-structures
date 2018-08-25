@@ -20,6 +20,7 @@ class Deque(object):
     def remove_rear(self):
         return self.items.pop(0)
 
+
 d = Deque()
 
 d.add_front('hello')

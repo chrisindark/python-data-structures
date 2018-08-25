@@ -18,6 +18,7 @@ def large_cont_sum(arr):
 
     return output_dict
 
+
 def large_cont_sum2(arr):
     largest_sum = 0
     temp_largest_sum = 0
@@ -44,6 +45,7 @@ def large_cont_sum2(arr):
             break
     return largest_sum
 
+
 def large_cont_sum3(arr):
     if len(arr) == 0:
         return 0
@@ -55,6 +57,7 @@ def large_cont_sum3(arr):
         max_sum = max(current_sum, max_sum)
 
     return max_sum
+
 
 # print(large_cont_sum([1,2,-1,3,4,-1]))
 # print(large_cont_sum([1,2,-1,3,4,10,10,-10,-1]))

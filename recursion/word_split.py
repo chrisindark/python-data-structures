@@ -13,6 +13,7 @@ def substring_start(phrase, word):
 
     return True
 
+
 def word_split(phrase, list_of_words, output=None):
     # print('p', phrase)
     if output is None:
@@ -26,6 +27,7 @@ def word_split(phrase, list_of_words, output=None):
             word_split(phrase[len(word):], list_of_words, output)
 
     return output
+
 
 # print(word_split('themanran', ['the', 'man', 'ran']))
 print(word_split('ilovedogsJohn', ['i', 'am', 'a', 'dogs', 'lover', 'love', 'John']))

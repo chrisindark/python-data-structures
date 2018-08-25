@@ -2,8 +2,9 @@
 
 numbers = []
 
+
 def fibonacci(a, b, n):
-    if numbers == []:
+    if not numbers:
         numbers.append(0)
 
     if n == 0:

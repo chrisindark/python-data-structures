@@ -5,6 +5,7 @@ def sum_ind(n):
 
     return dig + sum_ind(n // 10)
 
+
 print(sum_ind(54321))
 print(sum_ind(1))
 print(sum_ind(0))

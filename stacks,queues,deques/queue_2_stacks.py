@@ -45,6 +45,7 @@ class Queue2Stacks(object):
             return print(self.stack1)
         return print(self.stack2)
 
+
 q = Queue2Stacks()
 
 for i in range(5):

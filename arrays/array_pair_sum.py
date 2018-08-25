@@ -22,6 +22,7 @@ def pair_sum(arr, k):
         i += 1
     return arr_pairs
 
+
 def pair_sum1(arr, k):
     if len(arr) < 2:
         return []
@@ -39,6 +40,7 @@ def pair_sum1(arr, k):
             seen.add(num)
 
     return output
+
 
 def pair_sum2(arr, k):
     if len(arr) < 2:

@@ -17,6 +17,7 @@ def balance_check(s):
     # print(l)
     return l == []
 
+
 print(balance_check('[]'))
 print(balance_check('[](){([[[]]])}'))
 print(balance_check('()(){]}'))
@@ -35,6 +36,7 @@ class TestBalanceCheck(unittest.TestCase):
         self.assertEqual(balance_check('[{{{(())}}}]((()))'), True)
         self.assertEqual(balance_check('[[[]])]'), False)
         print('All test cases passed')
+
 
 t = TestBalanceCheck()
 t.test(balance_check)

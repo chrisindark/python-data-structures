@@ -5,4 +5,5 @@ def rec_sum(n):
     else:
         return n + rec_sum(n-1)
 
+
 print(rec_sum(5))
