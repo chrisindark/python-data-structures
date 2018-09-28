@@ -29,6 +29,6 @@ def word_split(phrase, list_of_words, output=None):
     return output
 
 
-# print(word_split('themanran', ['the', 'man', 'ran']))
+print(word_split('themanran', ['the', 'man', 'ran']))
 print(word_split('ilovedogsJohn', ['i', 'am', 'a', 'dogs', 'lover', 'love', 'John']))
-# print(word_split('themanran', ['clown', 'ran', 'man']))
+print(word_split('themanran', ['clown', 'ran', 'man']))
